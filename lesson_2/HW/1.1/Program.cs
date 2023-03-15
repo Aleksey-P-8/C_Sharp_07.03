@@ -1,4 +1,4 @@
-﻿string NumSec(int num)
+﻿ NumSec(int num)
 {
     if ((-1000 < num && num < -100) || (num < 1000 && num > 100))
         return $"{num / 10 % 10}";
